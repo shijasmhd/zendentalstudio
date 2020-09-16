@@ -132,7 +132,7 @@ body{
     color: #959191;
 }
 .connect{
-    background-image: url("/media/shijas/New Volume/web dev/growth_plug/map-desktop.jpg");
+    background-image: url("map-desktop.jpg");
     background-size: 80% 130%;
 }
 .connect .button{
