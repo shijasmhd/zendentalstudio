@@ -24,7 +24,7 @@ body{
 .dropdown-item{
     color: #778190;
 }
-#book_now, #book_now2{
+#book_now{
     padding: .5em 2em;
     font-family: 'Josefin Sans',courier,helvetica;
     background-color: rgb(209, 158, 28);
@@ -72,6 +72,9 @@ body{
     .notice{
         font-size: .38rem;
     }
+    #book_now{
+        font-size: .9rem;
+    }
 }
 @media only screen and (min-width:361px) and (max-width:375px){
     .card{
@@ -81,6 +84,9 @@ body{
     .notice{
         font-size: .55rem;
     }
+    #book_now{
+        font-size: 1rem;
+    }
 }
 @media only screen and (min-width:376px) and (max-width:425px){
     .card{
@@ -89,6 +95,9 @@ body{
     }
     .notice{
         font-size: .65rem;
+    }
+    #book_now{
+        font-size: 1rem;
     }
 }
 @media only screen and (min-width:426px) and (max-width:991px){
