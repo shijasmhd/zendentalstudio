@@ -1,0 +1,420 @@
+body{
+    font-family: 'helvetica',courier,monospace;
+}
+.notice, .notice .nav-item{
+    background-color: #e2e8f0;
+    color: #778190;
+    font-family: courier ;
+    font-weight: bolder;
+}
+.background{
+    background-color: #f8f9fa;
+}
+.navbar{
+    font-family: 'Josefin Sans',courier,helvetica;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    border: none;
+    background-color:#f8f9fa ;
+}
+.dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+.dropdown-item{
+    color: #778190;
+}
+#book_now{
+    padding: .5em 2em;
+    font-family: 'Josefin Sans',courier,helvetica;
+    background-color: rgb(209, 158, 28);
+    color: whitesmoke;
+    border: none;
+    transition: all .6s ease-in;
+    border-radius: 0%;
+    text-decoration: none;
+}
+#book_now:hover{
+    background-color: #f8f9fa;
+    color: rgb(209, 158, 28);
+    padding: .5em 3em;
+}
+.carousel-inner img{
+    height: 600px;
+    width: 400px;;
+}
+.carousel-caption{
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family:'Josefin Sans',courier,helvetica ;    
+}
+#caption{
+    background-color: hsla(154, 17%, 16%, 0.3);
+}
+
+.headings, .headings_s, .headings_c{
+    font-family: 'Josefin Sans',courier,helvetica;
+    font-size: 2.5rem;
+    color: rgb(209, 158, 28);
+}
+.headings_s{
+    color: rgb(209, 158, 28);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.headings_c{
+    color: #718096;
+    border: 4px solid #e2e8f0;
+}
+.desc{
+    font-family: 'Josefin Sans',courier,helvetica;
+    font-style: initial;
+    font-size: 1.3rem;
+    color: #778190;
+    text-align: justify;
+}
+.services{
+    font-size: 2rem;
+    color: #778190;
+    font-family: 'Josefin Sans',helvetica,courier;
+    font-weight: 900;
+    text-align: justify;
+}
+.patients{
+    background-color: #fefefe;
+}
+.card_bg, .card_bg1{
+    border: 4px solid #e2e8f0;
+}
+.card_bg1{
+    border-top: none;
+}
+.card_bg{
+    border-bottom: none;
+}
+.card{
+    height:400px;
+    width: 350px;
+    background-color: #e2e8f0;
+    perspective: 1000px;
+    display: inline-block;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 360px){
+    .card{
+        margin-bottom: 2em;
+        width: 99.5%;
+    }
+    .notice{
+        font-size: .38rem;
+    }
+    #book_now{
+        font-size: .9rem;
+    }
+    .patients{
+        zoom: .8;
+    }
+    .card-front h1{
+        font-size: 1.9rem;
+    }
+    #services{
+        font-size: .9rem !important;
+    }
+    .services{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .headings{
+        text-align: center;
+    }
+    .values .row, .values .col{
+        margin-top: 0 !important;
+    }
+    .values #book_now{
+        font-size: .8rem;
+        padding: 12 px 48px;
+    }
+    .headings_s{
+        font-size: .8rem !important;
+    }
+    .headings_c{
+        border: none;
+    }
+    .desc{
+        font-size: 1rem;
+        text-align: center;
+    }
+    #tags1, #tags2{
+        padding-left: 0% !important;
+    }
+}
+@media only screen and (min-width:361px) and (max-width:375px){
+    .card{
+        width: 99.5%;
+        margin-bottom: 2em;
+    }
+    .notice{
+        font-size: .55rem;
+    }
+    #book_now{
+        font-size: 1rem;
+    }
+    .patients{
+        zoom: .9;
+    }
+    .card-front h1{
+        font-size: 2.2rem;
+    }
+    #services{
+        font-size: 1rem !important;
+    }
+    .services{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .headings{
+        text-align: center;
+    }
+    .values .row, .values .col{
+        margin-top: 0 !important;
+    }
+    .values #book_now{
+        font-size: .9rem;
+        padding: 12 px 48px;
+    }
+    .headings_s{
+        font-size: .9rem !important;
+    }
+    .headings_c{
+        border: none;
+    }
+    .desc{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #tags1, #tags2{
+        padding-left: 0% !important;
+    }
+}
+@media only screen and (min-width:376px) and (max-width:425px){
+    .card{
+        margin-bottom: 2em;
+        width: 100%;
+    }
+    .notice{
+        font-size: .65rem;
+    }
+    #book_now{
+        font-size: 1rem;
+    }
+    .patients{
+        zoom: 1;
+    }
+    .card-front h1{
+        font-size: 2.5rem;
+    }
+    #services{
+        font-size: 1rem !important;
+    }
+    .services{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .headings{
+        text-align: center;
+    }
+    .values .row, .values .col{
+        margin-top: 0 !important;
+    }
+    .values #book_now{
+        font-size: .8rem;
+        padding: 12 px 48px;
+    }
+    .headings_s{
+        font-size: .9rem !important;
+    }
+
+    .desc{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #tags1, #tags2{
+        padding-left: 0% !important;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:991px){
+    .card{
+        margin-bottom: 1em;
+        width: 40vh;
+    }
+    .notice{
+        font-size: .8rem;
+    }
+    .values .row, .values .col{
+        margin-top: 0 !important;
+    }
+    .patients{
+        zoom: 1;
+    }
+    .headings_s{
+        justify-content: unset !important;
+        padding-left: 3% !important;
+    }
+    .patients .services{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    #tags1, #tags2{
+        padding-left: 0% !important;
+    }
+    
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .card{
+        width: 40vh;
+        display: inline-block;
+    }
+    .notice{
+        font-size: .9rem;
+    }
+    .values .row, .values .row .col{
+        margin-top: 0 !important;
+    }
+}
+@media only screen and (min-width: 1201px){
+    .card{
+        width: 50vh;
+        display: inline-block;
+    }
+}
+.card-body{
+    align-content: center;
+    font-family:'Josefin Sans',courier,helvetica ;
+    color: #718096;
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+}
+.card:hover .card-body{
+    transform: rotateY(180deg);
+}
+.card-front, .card-back{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* To fix backface-visibility not working in firefox */
+    transform: rotateX(0deg);
+}
+.card-back{
+    transform: rotateY(180deg);
+    text-align: left;
+    align-content: center;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-front .fa{
+    color: #718096;
+    background-color: transparent;
+    font-size: 3.5em;
+}
+.bottom .fa{
+    color: #535353;
+    background-color: transparent;
+}
+
+#services{
+    font-size: .6em;
+    padding: 1em;
+    text-align: justify;
+}
+
+.feedback_wall{
+    font-family: 'Caveat',cursive;
+    font-weight: bold;
+    color: #535353;
+}
+.carousel-item{
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+#questions{
+    font-family:'Josefin Sans',courier,helvetica;
+    color: #778190 ;
+}
+#answers{
+    color: #535353;
+    font-family: 'Josefin Sans', courier, helvetica;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+#tags, #tags2{
+    color: #535353;
+    font-family: helvetica;
+    padding-left: 2%;
+    font-weight: 300;
+}
+#tags{
+    font-weight: 500;
+}
+#tags1{
+    color: #535353;
+    text-decoration: none;
+}
+#tags1:hover{
+    color: #959191;
+}
+.connect{
+    background-image: url("1map-desktop.jpg");
+}
+.connect .i{
+    background-color: transparent;
+    border: none;
+}
+.logo {
+    padding: 0 1rem;
+    zoom: 1.1;
+    width: 500px;
+}
+@media only screen and (max-width:992px){
+    .b_row> .col-lg-4{
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    #tags{
+        padding-left: 0% !important;
+        margin-left: 0% !important;
+    }
+    .row{
+        justify-content:center;
+    }
+}
+@media only screen and (min-width:768px){
+    .car-m{
+        display: none;
+    }
+}
+@media only screen and (max-width:767px){
+    .car-l{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+    #office{
+        display: none;
+    }
+}
+@media only screen and (max-width:500px){
+    .carousel-inner img{
+        height: 450px;
+    }
+}
